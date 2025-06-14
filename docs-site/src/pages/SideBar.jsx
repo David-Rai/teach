@@ -10,7 +10,7 @@ const sidebarLinks = [
 
 export default function Sidebar() {
   return (
-    <aside className="w-64 h-screen bg-blue-400 text-white p-6">
+    <aside className="w-[20%] h-full bg-blue-400 text-white p-6 fixed z-10 left-0">
       <h2 className="text-2xl font-bold mb-6">DocsNav</h2>
       <nav className="space-y-2">
         {sidebarLinks.map((link) => (

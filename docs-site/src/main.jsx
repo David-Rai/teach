@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './pages/Home'
+import Intro from './pages/docs/Intro'
 import Documentation from './pages/Documentation'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -11,8 +12,14 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path:"/documentation",
-    element:<Documentation/>
+    path:"/docs",
+    element:<Documentation/>,
+    children:[
+      {
+        path:'intro',
+        element:<Intro/>
+      }
+    ]
   }
 ])
 

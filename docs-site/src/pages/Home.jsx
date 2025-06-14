@@ -24,7 +24,7 @@ function App() {
             Get started with HTML, CSS, JavaScript and more.
           </p>
           <a
-            onClick={() => navigate("/documentation")}
+            onClick={() => navigate("/docs")}
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-medium transition"
           >
             Start Learning
