@@ -1,22 +1,14 @@
 import React from 'react';
-import githubLogo from '../public/github.png'
-
+import githubLogo from '../../public/github.png'
+import { useNavigate } from 'react-router-dom';
+import Nav from './Nav';
 
 function App() {
+  const navigate = useNavigate()
+
   return (
     <div className="bg-gray-950 text-white min-h-screen flex flex-col">
-      {/* Navbar */}
-      <nav className="shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-400">Limitless</h1>
-          <ul className="flex gap-6 text-gray-300 text-sm items-center">
-            <li><a href="#home" className="hover:text-white"></a></li>
-            <li><a href="#about" className="hover:text-white">About</a></li>
-            <li><a href="#contact" className="hover:text-white">Contact</a></li>
-            <img src={githubLogo} alt="GITHUB" className='h-[50px] flex items-center justify-center' />
-          </ul>
-        </div>
-      </nav>
+      <Nav />
 
       {/* Hero Section */}
       <section id="home" className="flex-grow flex items-center justify-center text-center px-4">
@@ -32,7 +24,7 @@ function App() {
             Get started with HTML, CSS, JavaScript and more.
           </p>
           <a
-            href="#contact"
+            onClick={() => navigate("/documentation")}
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full font-medium transition"
           >
             Start Learning
