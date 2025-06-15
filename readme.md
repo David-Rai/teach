@@ -1,87 +1,110 @@
-# 🌐 Beginner's Web Development Course
+# 🌐 Web Development Learning Journey
 
-Welcome to the **Beginner’s Guide to Web Development!**  
-This course is designed for **complete beginners** who want to start their journey into the world of web development. Whether you’ve never written a single line of code or are just curious about how websites work, this is the perfect place to begin.
-
-You’ll learn how to build websites from the ground up using:
-- 🧱 HTML for structure
-- 🎨 CSS for design
-- ⚙️ JavaScript for interactivity
-
-We'll explore real-world examples, build fun mini-projects, and gradually move from simple web pages to dynamic and responsive websites.
+Welcome to my web development learning tracker! This README documents my progress and what I’ve learned in frontend development, starting from the very basics.
 
 ---
 
-## 📘 What You'll Learn (From Knowing Nothing to Web Developer)
+## ✅ Introduction to Web Development
 
-### 🟢 1. Understanding the Basics of Computers & the Web
-- What is the internet and how websites work
-- What is a browser
-- What is a website made of
-- How files and folders work
-
-💡 **Goal:** Understand how websites are built and shown on your screen.
-
----
-
-### 🟠 2. HTML – Building Blocks of a Webpage
-- Headings, paragraphs, links, and images
-- Buttons and input boxes
-- Creating your first webpage (bio/resume)
-
-💡 **Goal:** Build a personal webpage with content.
+- [x] Understood what a website is and how it works
+- [x] Learned the difference between frontend and backend
+- [x] Explored common tools developers use:
+  - VS Code
+  - Live Server Extension
+  - Chrome DevTools
 
 ---
 
-### 🔵 3. CSS – Making It Look Good
-- Styling text, colors, backgrounds
-- Layout with spacing, margins, and positioning
-- Responsive design with Flexbox and Media Queries
+## 🌐 How a Website Works
 
-💡 **Goal:** Design a clean, responsive website.
+- [x] Learned what domains and hosting are
+- [x] Understood how websites are deployed on the internet
 
 ---
 
-### 🟣 4. JavaScript – Making It Interactive
-- Display messages with `alert` and `console.log`
-- React to button clicks and form inputs
-- Build a to-do app or calculator
+## 🧱 HTML (HyperText Markup Language)
 
-💡 **Goal:** Add interactivity to your pages.
+> HTML is used to structure content on the web — like the skeleton of a website.
 
----
+### ✅ Topics Covered
 
-### 🟤 5. Developer Tools & Workflow
-- Using VS Code (or online editors like CodePen)
-- Inspecting with Browser Dev Tools
-- Using Git and GitHub to save your code
-
-💡 **Goal:** Develop like a real programmer.
-
----
-
-### 🔴 6. Final Projects & Publishing
-- Build your own portfolio or blog
-- Combine HTML, CSS, JS into one real project
-- Deploy your site using GitHub Pages, Netlify, or Vercel
-
-💡 **Goal:** Share your project live on the internet.
+- [x] Basic HTML structure
+- [x] Headings: `<h1>` to `<h6>`
+- [x] Paragraphs: `<p>`
+- [x] Images: `<img>`
+- [x] Buttons: `<button>`
+- [x] Anchor tags: `<a>`
+- [x] Divisions: `<div>`
+- [x] Input fields: `<input>`
+- [x] HTML comments
+- [x] Created my first HTML file
+- [x] Built a basic webpage structure
 
 ---
 
-## ✅ You Don’t Need:
-- A computer science degree  
-- Math or prior coding skills  
-- Any expensive tools
+## 🎨 CSS (Cascading Style Sheets)
 
-**All you need is:**
-- 🔎 Curiosity
-- ⌨️ A willingness to learn
-- 🧭 A guide (this course)
+> CSS is used to style HTML elements and make the website visually appealing — like the clothes on a body.
+
+### 🔄 Topics In Progress
+
+- [ ] Inline, internal, and external CSS
+- [ ] CSS selectors
+- [ ] Styling text and backgrounds
+- [ ] Colors, margins, and paddings
+- [ ] Box model
+- [ ] Fonts and text decoration
+- [ ] Display properties and positioning
+- [ ] Flexbox and layout
+- [ ] Z-index and icons
 
 ---
 
-## 🚀 Ready to Start?
-> Head to the [Curriculum](#) and start your journey into web development!
+## 🧠 JavaScript (JS)
+
+> JavaScript brings interactivity to the website — it's like the brain.
+
+### 🔄 Topics In Progress
+
+- [ ] Variables, functions, and events
+- [ ] DOM manipulation basics
+- [ ] Adding interactivity to my website
 
 ---
+
+## 💻 Developer Tools Setup
+
+- [x] Installed VS Code
+- [x] Learned to use Live Server for real-time preview
+- [x] Used Chrome DevTools for debugging
+
+---
+
+## 🚀 Hosting & Deployment
+
+- [x] Introduction to GitHub
+- [x] Learned how to deploy a static site with GitHub Pages
+
+---
+
+## 📁 Git & GitHub (Version Control)
+
+### 🔄 Topics In Progress
+
+- [ ] Install Git
+- [ ] Make first commit
+- [ ] Push project to GitHub
+
+---
+
+## 🛠️ Project: Personal Portfolio (Coming Soon)
+
+- [ ] Build a basic portfolio using HTML and CSS
+- [ ] Host it on GitHub Pages or Netlify
+
+---
+
+### 🚧 Status: In Progress...
+
+Stay tuned for updates as I build more projects and learn advanced topics!
+
